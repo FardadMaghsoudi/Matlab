@@ -1,0 +1,11 @@
+T=(Xij)';
+N=T*Yi;
+D=SumXij;
+Mj=N./D;
+Mjj=(Mj)';
+N2=(Xij*Mj);
+D2=SumXji;
+Y=N2./D2;
+YF=Yi-Y
+% A=Area;
+% R=A.*YF
